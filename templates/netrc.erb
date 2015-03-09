@@ -1,0 +1,5 @@
+<% @machine_user_password_triples.each do |netrc_block|
+	netrc_block.each_with_index do |item,i| -%>
+<%= @prefixes[i] %><%= item %>
+<%	end
+  end -%>

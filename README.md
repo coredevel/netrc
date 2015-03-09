@@ -1,0 +1,1 @@
+A very simple puppet module based on work by https://github.com/saheba/puppet-netrc but this fixes iteration over machine, login, block arrays passed into resource type as a parameter thus .netrc file is correctly created with desired values.
